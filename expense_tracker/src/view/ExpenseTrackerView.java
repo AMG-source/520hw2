@@ -18,6 +18,10 @@ public class ExpenseTrackerView extends JFrame {
   private JButton addTransactionBtn;
   private JFormattedTextField amountField;
   private JTextField categoryField;
+  // filter controls
+  private JComboBox<String> filterCombo;
+  private JTextField filterParamField;
+  private JButton applyFilterBtn;
   private DefaultTableModel model;
   
 
@@ -51,6 +55,14 @@ public class ExpenseTrackerView extends JFrame {
     inputPanel.add(categoryLabel); 
     inputPanel.add(categoryField);
     inputPanel.add(addTransactionBtn);
+  // filter UI
+  filterCombo = new JComboBox<>(new String[]{"None", "Category", "Amount >="});
+  filterParamField = new JTextField(10);
+  applyFilterBtn = new JButton("Apply Filter");
+  inputPanel.add(new JLabel("Filter:"));
+  inputPanel.add(filterCombo);
+  inputPanel.add(filterParamField);
+  inputPanel.add(applyFilterBtn);
   
     JPanel buttonPanel = new JPanel();
     buttonPanel.add(addTransactionBtn);
@@ -96,6 +108,9 @@ public class ExpenseTrackerView extends JFrame {
   public JButton getAddTransactionBtn() {
     return addTransactionBtn;
   }
+  public JComboBox<String> getFilterCombo() { return filterCombo; }
+  public JTextField getFilterParamField() { return filterParamField; }
+  public JButton getApplyFilterBtn() { return applyFilterBtn; }
   public DefaultTableModel getTableModel() {
     return model;
   }
