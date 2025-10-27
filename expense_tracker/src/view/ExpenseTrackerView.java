@@ -123,7 +123,9 @@ public class ExpenseTrackerView extends JFrame {
     if(amountField.getText().isEmpty()) {
       return 0;
     }else {
-    double amount = Double.parseDouble(amountField.getText());
+    // Strip commas and whitespace before parsing
+    String text = amountField.getText().replaceAll("[,\\s]", "");
+    double amount = Double.parseDouble(text);
     return amount;
     }
   }
