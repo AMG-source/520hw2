@@ -1,0 +1,91 @@
+commit 5131ba3e31f86c9b7f8012dcae0daf1724b8fc27
+Author: vpk-11 <83803726+vpk-11@users.noreply.github.com>
+Date:   Tue Oct 28 16:09:09 2025 -0400
+
+    Added new Test Cases
+
+commit 380d3780072cfb45648ee82f184ecb0ba22d9ee5
+Author: Amogh Guthur <amogh@example.com>
+Date:   Mon Oct 27 04:36:06 2025 +0000
+
+    fix: resolve duplicate transactions and comma parsing issues
+
+commit 7a586cd304f9fc9280ee7638d51b914d3165faea
+Author: Amogh Guthur <amogh@example.com>
+Date:   Mon Oct 27 04:15:07 2025 +0000
+
+    chore: finalize remaining edits (controller, view, docs)
+
+commit 37dfb323ea84f396d1ffa92c45a89201dbad2113
+Author: Amogh Guthur <amogh@example.com>
+Date:   Mon Oct 27 04:13:58 2025 +0000
+
+    docs: add GITLOG.md with commit history
+
+commit ed902c8a446f4d9eddd6496f67adb47a14f8747e
+Author: Amogh Guthur <amogh@example.com>
+Date:   Mon Oct 27 04:13:49 2025 +0000
+
+    docs: generate javadoc into jdoc/ (forced add)
+
+commit 216ed7c029ca3e7ee7ab76b0205964928948d419
+Author: Amogh Guthur <amogh@example.com>
+Date:   Mon Oct 27 04:13:22 2025 +0000
+
+    docs: add API comments to filter classes
+
+commit dc99f247719aed1570bc6d3861a3bd0b587c1991
+Author: Amogh Guthur <amogh@example.com>
+Date:   Mon Oct 27 04:13:13 2025 +0000
+
+    docs: update README with filtering feature and run instructions
+
+commit 0e6cf7338cc8e1673db9b2a4fda0d2f5be3c2ac3
+Author: vpk-11 <83803726+vpk-11@users.noreply.github.com>
+Date:   Sun Oct 26 22:37:58 2025 -0400
+
+    init
+
+commit a640f2a45c48b8c7432af50241c3ab9efcc49e1d
+Author: Heather Conboy <hconboy@cs.umass.edu>
+Date:   Wed Oct 22 14:40:05 2025 -0400
+
+    Update README.md
+    
+    Fixed a typo in the Compile section of the README file.
+
+commit 5095c4adc397e50a68ff6368c2f4820553a2f836
+Author: Heather Conboy <hconboy@cs.umass.edu>
+Date:   Wed Oct 22 09:54:26 2025 -0400
+
+    Modified the Transaction class to be immutable. Modified the ExpenseTrackerModel class to encapsulate the list of transactions.
+
+commit b21da9fb7fd47c25881d7fc014a932365cb1552b
+Author: Mahbuba Tasmin <tasmin153@gmail.com>
+Date:   Sat Sep 2 02:42:57 2023 -0400
+
+    Build file update
+
+commit ccabaffc7ff1b7098979a63fcbadf48bc04915c3
+Author: Mahbuba Tasmin <tasmin153@gmail.com>
+Date:   Tue Aug 29 14:49:22 2023 -0400
+
+    File Update
+
+commit 2574c71001a74c29f01f4a84fa99f450158f2f10
+Author: Mahbuba Tasmin <tasmin153@gmail.com>
+Date:   Wed Aug 9 14:11:14 2023 -0400
+
+    Total Cost and Serial update
+
+commit d29d2c8acb4145ce700e0456ccc334da0cad3dc2
+Author: Mahbuba Tasmin <tasmin153@gmail.com>
+Date:   Wed Aug 9 12:54:46 2023 -0400
+
+    HW2 template files
+
+commit 6a51d8019c39a33d581ce078ae8887a022ee806d
+Author: Mahbuba Tasmin <tasmin153@gmail.com>
+Date:   Tue Aug 8 21:48:41 2023 -0400
+
+    Initial commit
