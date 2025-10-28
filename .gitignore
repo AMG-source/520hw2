@@ -1,6 +1,6 @@
 # Ignore build folders
-jdoc/
 bin/
+jdoc/
 
 # Ignore config files
 application.properties
