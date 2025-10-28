@@ -1,14 +1,14 @@
 # Export to CSV Feature - Design Document
 
 ## Feature Overview
-This document outlines the design for adding CSV export functionality to the Expense Tracker application. Users will be able to export their transaction history to a CSV file with a user-specified filename.
+This is a design document for functionally adding a CSV Export feature to the Expense Tracker application. This function will allow users to export their transaction history information to a CSV file using a filename specified by the user.
 
 ## Requirements
 1. User can specify the output file name
 2. Input validation for the file name
 3. First line contains column headers
 4. Each subsequent line contains one transaction
-5. Must follow MVC architecture, UI design laws, OO principles, and best practices
+5. Must follow MVC architecture, UI design laws, OO principles and best practices
 
 ## Design Approach
 
@@ -150,7 +150,7 @@ public class CSVExporter {
 - Existing code won't need modification to add new export types
 
 **Dependency Inversion Principle:**
-- Controller depends on model interface, not concrete implementation
+- Controller depends on model interface ant not on the concrete implementation
 - Future: Create Exporter interface that CSVExporter implements
 
 **Encapsulation:**
@@ -193,7 +193,7 @@ try (FileWriter writer = new FileWriter(filename)) {
 **User Feedback:**
 - Show success message with filename: "Exported successfully to: transactions.csv"
 - Show error message on failure: "Export failed: Invalid filename"
-- Clear the filename field after successful export (optional)
+- Clear the filename field after successful export 
 
 ### 6. CSV Output Format
 
