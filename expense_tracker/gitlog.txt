@@ -1,3 +1,15 @@
+commit f12f4f46e3c4171ce7c713d9d509f924b1a00137
+Author: Amogh Guthur <amogh860@gmail.com>
+Date:   Tue Oct 28 16:43:39 2025 -0400
+
+    Updated export.md
+
+commit 8dc645434b264fd75b1deeaa429bf92dd761780a
+Author: vpk-11 <83803726+vpk-11@users.noreply.github.com>
+Date:   Tue Oct 28 16:29:53 2025 -0400
+
+    Added: gitlog txt, export.md
+
 commit 5131ba3e31f86c9b7f8012dcae0daf1724b8fc27
 Author: vpk-11 <83803726+vpk-11@users.noreply.github.com>
 Date:   Tue Oct 28 16:09:09 2025 -0400
