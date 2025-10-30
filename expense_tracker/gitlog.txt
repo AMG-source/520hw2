@@ -1,3 +1,27 @@
+commit 0808384ff9c3e6454ffd1d50bcd330fe553df660
+Author: vpk-11 <83803726+vpk-11@users.noreply.github.com>
+Date:   Thu Oct 30 16:25:38 2025 -0400
+
+    Extensibility: Updated filter files with API comments
+
+commit 7f9d277907c2cc496bf2bc00c5a6d9d5f61886f0
+Author: vpk-11 <83803726+vpk-11@users.noreply.github.com>
+Date:   Thu Oct 30 16:25:09 2025 -0400
+
+    Understandability: Added API Comments
+
+commit 2f2cf1ec6bca464050c7ad77be2bfbe37d87f3de
+Author: vpk-11 <83803726+vpk-11@users.noreply.github.com>
+Date:   Thu Oct 30 16:24:14 2025 -0400
+
+    Understandability: Updated ReadMe
+
+commit 799e55603519bbccd5c8b97ab536d85537300f4a
+Author: vpk-11 <83803726+vpk-11@users.noreply.github.com>
+Date:   Thu Oct 30 15:36:54 2025 -0400
+
+    Updated repo
+
 commit f12f4f46e3c4171ce7c713d9d509f924b1a00137
 Author: Amogh Guthur <amogh860@gmail.com>
 Date:   Tue Oct 28 16:43:39 2025 -0400
